@@ -1,0 +1,20 @@
+p {
+    color: black;
+}
+
+section {
+    background-color: blue;
+}
+
+div {
+    background-color: yellow;
+}
+
+nav {
+    background-color: grey;
+}
+
+footer {
+    background-image: url("Images/Background\ -\ Website.jpg");
+}
+
