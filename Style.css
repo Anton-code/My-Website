@@ -18,3 +18,30 @@ footer {
     background-image: url("Images/Background\ -\ Website.jpg");
 }
 
+p {
+    font-family: monospace;
+}
+
+h2 {
+    font-family: fantasy;
+}
+
+.Hobbie {
+    font-size:35px;
+}
+
+h2 {
+    font:35px;
+}
+
+.Anton {
+    text-align: center;
+}
+
+.Anton {
+    font-size: 50px;
+}
+
+.about {
+    font-family: fantasy;
+}
