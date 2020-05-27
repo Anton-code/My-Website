@@ -1,47 +1,43 @@
+/* Text Color */
 p {
     color: black;
 }
 
-section {
-    background-color: blue;
+h1 {
+    color: blue;
+    font-size:40px;
 }
 
-div {
-    background-color: yellow;
+h2 {
+    font:30px;
 }
+
+/*Text Type*/
+
+p {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+/*Background*/
 
 nav {
     background-color: grey;
 }
 
-footer {
-    background-image: url("Images/Background\ -\ Website.jpg");
+h1 {
+    background-image:url("Images/Background\ -\ Website.jpg");
 }
 
-p {
-    font-family: monospace;
+
+
+/*Style Website */
+
+div {
+    display: flex;
+    flex-direction: row;
 }
 
-h2 {
-    font-family: fantasy;
-}
-
-.Hobbie {
-    font-size:35px;
-}
-
-h2 {
-    font:35px;
-}
-
-.Anton {
-    text-align: center;
-}
-
-.Anton {
-    font-size: 50px;
-}
-
-.about {
-    font-family: fantasy;
-}
