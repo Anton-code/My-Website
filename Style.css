@@ -1,11 +1,6 @@
 /* Text Color */
-p {
+p, ul {
     color: black;
-}
-
-h1 {
-    color: blue;
-    font-size:40px;
 }
 
 h2 {
@@ -20,6 +15,8 @@ p {
 
 h1 {
     font-family: fantasy;
+    font-size: 40px;
+    color: blue;
 }
 
 /*Background*/
@@ -28,16 +25,103 @@ nav {
     background-color: grey;
 }
 
-h1 {
-    background-image:url("Images/Background\ -\ Website.jpg");
-}
+
 
 
 
 /*Style Website */
+
+/*Padding*/
+
+
+.anton {
+    padding-right: 650px;
+    padding-left: 650px;
+}
 
 div {
     display: flex;
     flex-direction: row;
 }
 
+.hobie {
+    padding-right: 200px;
+    padding-left: 200px;
+    background-color: blue;
+}
+
+.hobbie {
+    padding-right: 700px;
+    padding-left:  700px;
+    background-color: blue;
+    font-size: 30px;
+    
+}
+
+body {
+    background-color: limegreen;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:focus {
+    color: lightblue;
+    background-color: lightblue;
+}
+
+section {
+    background-color: grey;
+}
+
+.pet {
+    background-color: chartreuse;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.song {
+    background-color: crimson;
+}
+
+.aboutt {
+    background-color: greenyellow;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.petss {
+    padding-right: 500px;
+    padding-left: 500px;
+    background-color: chartreuse;
+}
+
+.songss {
+    display: flex;
+    flex-direction: row;
+    background-color: crimson;
+}
+
+.links {
+    background-image: url("Images/Background\ -\ Website.jpg");
+    background-size: 2000px;
+}
+
+.Credits {
+    background-color: turquoise;
+}
